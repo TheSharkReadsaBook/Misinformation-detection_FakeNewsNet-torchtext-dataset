@@ -1,3 +1,4 @@
+# political fact와 gossip title 매칭하여 구분 1:1로 매칭된 것만 출력함
 #!/usr/bin/env python3
 """Match cleaned FakeNewsNet records to original GossipCop/PolitiFact CSV titles.
 

@@ -1,3 +1,4 @@
+# 결측치 확인하는 코드
 import argparse
 import json
 import math
