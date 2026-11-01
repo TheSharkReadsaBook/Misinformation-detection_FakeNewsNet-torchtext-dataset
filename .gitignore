@@ -221,4 +221,4 @@ __marimo__/
 
 #user define
 fakenewsnet-unbalanced.json
-.csv
+*.csv
