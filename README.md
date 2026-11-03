@@ -16,9 +16,4 @@ todo
 
 LLM 라벨링 후 비교?
 
-<<<<<<< HEAD
-
-
-=======
 python 3.12.10 사용, glove.6B.100d.txt필요
->>>>>>> bb73384 (Remove exposed secrets)
