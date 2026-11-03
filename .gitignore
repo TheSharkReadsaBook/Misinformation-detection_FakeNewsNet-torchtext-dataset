@@ -222,3 +222,8 @@ __marimo__/
 #user define
 fakenewsnet-unbalanced.json
 *.csv
+embeddings/vectors_22/
+embeddings/.venv312/
+embeddings/glove.6B.100d.txt
+EDA/fakenewsnet-cleaned.json
+EDA/eda_results
