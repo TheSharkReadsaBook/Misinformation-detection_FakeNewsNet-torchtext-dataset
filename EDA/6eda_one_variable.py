@@ -2,7 +2,7 @@
 import json
 import pandas as pd
 
-file_path = "fakenewsnet-cleaned.json"
+file_path = "dataset/fakenewsnet-deduplicated.json"
 
 # JSON / JSONL 자동 읽기
 try:
