@@ -2,7 +2,7 @@
 import re
 import pandas as pd
 
-INPUT_PATH = "dataset/fakenewsnet-deduplicated.json"
+INPUT_PATH = "../dataset/fakenewsnet-cleaned.json"
 EXAMPLE_LIMIT = 3
 
 df = pd.read_json(INPUT_PATH, lines=True)
@@ -201,7 +201,7 @@ for column in ["title", "text"]:
 
 
 # 정제된 데이터를 새 JSONL 파일로 저장
-output_path = "dataset/fakenewsnet-text-cleaned.json"
+output_path = "../dataset/fakenewsnet-text-cleaned.json"
 
 df_clean.to_json(
     output_path,

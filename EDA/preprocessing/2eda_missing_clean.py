@@ -134,12 +134,12 @@ def main():
     parser.add_argument(
         "file",
         nargs="?",
-        default="../fakenewsnet-unbalanced.json"
+        default="../dataset/fakenewsnet-unbalanced.json"
     )
 
     parser.add_argument(
         "--clean-output",
-        default="fakenewsnet-cleaned.json"
+        default="../dataset/fakenewsnet-cleaned.json"
     )
 
     args = parser.parse_args()

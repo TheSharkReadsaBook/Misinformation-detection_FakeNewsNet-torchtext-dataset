@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_json("dataset/fakenewsnet-cleaned.json", lines=True)
+df = pd.read_json("../dataset/fakenewsnet-text-cleaned.json", lines=True)
 
 print("=" * 60)
 print("[1] 중복 제거 전")
@@ -90,7 +90,7 @@ print("\n제거 후:")
 print(df_clean["label"].value_counts())
 
 # [4] 중복 제거 결과를 새 JSON 파일로 저장
-output_path = "dataset/fakenewsnet-deduplicated.json"
+output_path = "../dataset/fakenewsnet-deduplicated.json"
 
 df_clean.to_json(
     output_path,

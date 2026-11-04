@@ -1,4 +1,4 @@
-
+# 01 EDA 시작하기: 크기, 자료형, 결측
 import argparse
 import json
 import math
@@ -89,8 +89,9 @@ def main():
     parser.add_argument(
         "file",
         nargs="?",
-        # default="../fakenewsnet-unbalanced.json"
-        default="fakenewsnet-cleaned.json"
+        default="../dataset/fakenewsnet-unbalanced.json"
+        #default="dataset/fakenewsnet-cleaned.json"
+        # default="dataset/fakenewsnet-deduplicated.json"
     )
 
     args = parser.parse_args()

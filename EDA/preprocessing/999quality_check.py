@@ -5,7 +5,7 @@ from collections import Counter
 import pandas as pd
 
 
-INPUT_PATH = "dataset/fakenewsnet-text-cleaned.json"
+INPUT_PATH = "../dataset/fakenewsnet-deduplicated.json"
 EXAMPLE_LIMIT = 5
 
 df = pd.read_json(INPUT_PATH, lines=True)
